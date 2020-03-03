@@ -29,7 +29,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="SvnConfiguration">
@@ -43,7 +43,7 @@
       <option name="presentableId" value="Default" />
       <updated>1583225668281</updated>
       <workItem from="1583225670080" duration="2512000" />
-      <workItem from="1583238333626" duration="2375000" />
+      <workItem from="1583238333626" duration="2953000" />
     </task>
     <servers />
   </component>
@@ -67,13 +67,17 @@
       <screen x="1680" y="-528" width="2560" height="1417" />
     </state>
     <state width="2518" height="408" key="GridCell.Tab.0.right/1680.-528.2560.1417/0.23.1680.975@1680.-528.2560.1417" timestamp="1583238315569" />
+    <state x="2469" y="-181" key="SettingsEditor" timestamp="1583242985071">
+      <screen x="1680" y="-528" width="2560" height="1417" />
+    </state>
+    <state x="2469" y="-181" key="SettingsEditor/1680.-528.2560.1417/0.23.1680.975@1680.-528.2560.1417" timestamp="1583242985071" />
     <state x="2639" y="13" key="com.intellij.ide.util.TipDialog" timestamp="1583238344752">
       <screen x="1680" y="-528" width="2560" height="1417" />
     </state>
     <state x="2639" y="13" key="com.intellij.ide.util.TipDialog/1680.-528.2560.1417/0.23.1680.975@1680.-528.2560.1417" timestamp="1583238344752" />
-    <state x="2625" y="-203" width="670" height="676" key="search.everywhere.popup" timestamp="1583240368491">
+    <state x="2625" y="-203" width="670" height="676" key="search.everywhere.popup" timestamp="1583242950016">
       <screen x="1680" y="-528" width="2560" height="1417" />
     </state>
-    <state x="2625" y="-203" width="670" height="676" key="search.everywhere.popup/1680.-528.2560.1417/0.23.1680.975@1680.-528.2560.1417" timestamp="1583240368491" />
+    <state x="2625" y="-203" width="670" height="676" key="search.everywhere.popup/1680.-528.2560.1417/0.23.1680.975@1680.-528.2560.1417" timestamp="1583242950016" />
   </component>
 </project>
