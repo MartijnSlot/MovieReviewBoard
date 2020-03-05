@@ -19,18 +19,5 @@ class HelloWorldController {
         return "helloworld!"
     }
 
-    @Bean
-    fun simpleCorsFilter(): FilterRegistrationBean<*> {
-        val source = UrlBasedCorsConfigurationSource()
-        val config = CorsConfiguration()
-        config.allowCredentials = true
-        // *** URL below needs to match the Vue client URL and port ***
-        config.allowedOrigins = Collections.singletonList("http://localhost:8081")
-        config.allowedMethods = Collections.singletonList("*")
-        config.allowedHeaders = Collections.singletonList("*")
-        source.registerCorsConfiguration("/**", config)
-        val bean = FilterRegistrationBean<Filter>(CorsFilter(source))
-        bean.setOrder(Ordered.HIGHEST_PRECEDENCE)
-        return bean
-    }
+
 }

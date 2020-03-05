@@ -1,1 +1,1 @@
-./gradlew bootRun
+cd backend && ./gradlew bootRun
