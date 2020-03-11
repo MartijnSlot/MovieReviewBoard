@@ -11,12 +11,12 @@ input DirectorInput {
 
 extend type Query {
     findMoviesByDirector(directorId: ID) : [Movie]!
-    countMoviesByDirector(directorId: ID) : Long!
+    countMoviesByDirector(directorId: ID) : Int!
     findAllDirectors : [Director]!
-    countDirectors: Long!
+    countDirectors: Int!
 }
 
 extend type Mutation {
     newDirector(directorId: ID, firstName: String!, lastName: String!) : Director
-    updateDirector(directorId: Long!, directorInput: DirectorInput!) : Director
+    updateDirector(directorId: Int!, directorInput: DirectorInput!) : Director
 }

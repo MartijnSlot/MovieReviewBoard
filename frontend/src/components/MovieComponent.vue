@@ -27,14 +27,10 @@
 </template>
 
 <script>
-import { mapGetters } from "vuex";
 
 export default {
   name: "moviecomponent",
   props: ["movie"],
-  computed: {
-    ...mapGetters(["accessToken"])
-  },
   methods: {
     fullName(director) {
       return `${director.firstName} ${director.lastName}`;
@@ -42,8 +38,7 @@ export default {
     updateMovieRating(vote) {
       this.$store.dispatch("updateMovieRating", {
         id: this.movie.id,
-        vote,
-        accessToken: this.accessToken
+        vote
       });
     }
   }

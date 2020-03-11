@@ -10,7 +10,7 @@
 <script>
 import { mapGetters } from "vuex";
 import NavBarComponent from "../components/NavBarComponent.vue";
-import MovieComponent from "../components/MovieComponent.vue.vue";
+import MovieComponent from "../components/MovieComponent.vue";
 
 export default {
   name: "movieboard",
@@ -24,12 +24,10 @@ export default {
     };
   },
   computed: {
-    ...mapGetters(["movies", "accessToken"])
+    ...mapGetters(["movies"])
   },
   created() {
-    if (this.accessToken) {
-      this.$store.dispatch("getMovies", this.accessToken);
-    }
+    this.$store.dispatch("getMovies");
   }
 };
 </script>
